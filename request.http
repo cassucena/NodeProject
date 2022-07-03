@@ -1,0 +1,28 @@
+POST http://localhost:3030/products
+content-type: application/json
+
+{
+    "name": "teclado",
+    "price": 10
+}
+
+###
+
+GET  http://localhost:3030/products
+
+###
+GET  http://localhost:3030/products/ba4a9d2e-96e7-48d9-b404-62b9286183f5
+
+###
+
+PUT http://localhost:3030/products/6543373d-99ea-4d01-9571-3caafeb171cb
+content-type: application/json
+
+{
+    "name": "borracha verde",
+    "price": 10
+}
+
+
+###
+DELETE  http://localhost:3030/products/ba4a9d2e-96e7-48d9-b404-62b9286183f5
